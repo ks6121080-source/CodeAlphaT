@@ -2,7 +2,7 @@
 
 
 
-\## 📌 Project Overview
+📌 Project Overview
 
 This project is a chatbot designed to provide instant responses to user queries on a website.  
 
@@ -18,7 +18,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 🚀 Features
+ 🚀 Features
 
 \- AI-powered chatbot using predefined input patterns
 
@@ -38,7 +38,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 🧠 Chatbot Approach
+ 🧠 Chatbot Approach
 
 \- \*\*Model Type:\*\* Retrieval-based chatbot  
 
@@ -52,7 +52,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 \- HTML, CSS, JavaScript
 
@@ -70,7 +70,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 📂 Project Structure
+📂 Project Structure
 
 &nbsp;	CodeAlpha\_my-chatbot/
 
@@ -116,7 +116,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## ▶️ How to Run the Project Locally
+ ▶️ How to Run the Project Locally
 
 
 
@@ -132,7 +132,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 🧪 Testing \& Optimization
+ 🧪 Testing \& Optimization
 
 \- Chatbot responses tested using Firebase Emulator
 
@@ -146,7 +146,7 @@ The application demonstrates seamless frontend–backend integration and real-ti
 
 
 
-\## 📌 Internship Task Completion
+ 📌 Internship Task Completion
 
 This project fulfills the internship requirements:
 
@@ -166,7 +166,7 @@ This project fulfills the internship requirements:
 
 
 
-\## 🔗 Author
+ 🔗 Author
 
 \*\*Name:\*\* Qureshi Khatija Asif.
 
@@ -179,27 +179,15 @@ Organization: CodeAlpha
 
 
 
-\## 🌐 Hosting
+ 🌐 Hosting
 
 This project is hosted locally using Firebase Emulator Suite for development and testing purposes.
-
-
-
 
 
 ---
 
 
-
-\## 📜 License
+ 📜 License
 
 This project is for educational and internship evaluation purposes.
-
-
-
-
-
-
-
-
 
