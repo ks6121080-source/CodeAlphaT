@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Firebase / Google Cloud credentials
+service-account.json
+
+# Environment variables (if ever created)
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
