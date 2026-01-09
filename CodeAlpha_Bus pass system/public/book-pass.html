@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Bus Pass</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-page">
+
+  <!-- Header -->
+  <header class="top-bar">
+    <div class="logo">☁️ Cloud-Based Bus Pass System</div>
+    <nav>
+      <a href="dashboard.html">Home</a>
+      <a href="my-pass.html">My Pass</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Booking Container -->
+  <div class="dashboard-container">
+    
+    <div class="book-section">
+     <h2>Book Your Bus Pass</h2>
+	<div class="form-row">
+  	 <div style="width:100%;">
+    	  <label>User Name</label>
+    	   <input
+      	     type="text"
+      		id="username"
+      		 placeholder="Enter your name"
+      		  required
+    		   />
+		    </div>
+			</div>
+
+      <div class="form-row">
+        <div>
+          <label>From</label>
+          <select id="from">
+            <option>City Center</option>
+            <option>Downtown</option>
+            <option>Railway Station</option>
+          </select>
+        </div>
+
+        <div>
+          <label>To</label>
+          <select id="to">
+            <option>Airport</option>
+            <option>Tech Park</option>
+            <option>University</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div>
+          <label>Pass Type</label>
+          <select id="pass-type">
+            <option>Daily</option>
+            <option>Monthly</option>
+            <option>Student</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Valid Till</label>
+          <input type="date" id="valid-till" value="2026-09-30"/>
+        </div>
+      </div>
+	
+	<div class="btn-center">
+      <button class="primary-btn" onclick="saveBooking()">Check Availability</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

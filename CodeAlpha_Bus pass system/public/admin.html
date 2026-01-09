@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body class="admin-page">
+
+  <!-- TOP BAR -->
+  <header class="top-bar">
+    <div class="logo">☁️ Bus Pass Admin Panel</div>
+    <nav>
+      <a href="dashboard.html">User Dashboard</a>
+      <a href="admin.html">Admin</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="admin-container">
+
+    <!-- TITLE -->
+    <div class="admin-header">
+      <h1>Admin Dashboard</h1>
+      <p>Manage bus passes, users, and recent bookings</p>
+    </div>
+
+    <!-- STATS CARDS -->
+    <div class="admin-stats">
+      <div class="admin-card users">
+        <h4>Total Users</h4>
+        <p id="totalUsers">0</p>
+      </div>
+      <div class="admin-card active">
+        <h4>Active Passes</h4>
+        <p id="activePasses">0</p>
+      </div>
+      <div class="admin-card expired">
+        <h4>Expired Passes</h4>
+        <p id="expiredPasses">0</p>
+      </div>
+    </div>
+
+    <!-- RECENT BOOKINGS TABLE -->
+    <section class="admin-section">
+      <h2>Recent Pass Bookings</h2>
+      <div class="admin-table">
+        <div class="table-header">
+          <div>User</div>
+          <div>From</div>
+          <div>To</div>
+          <div>Pass Type</div>
+          <div>Valid Till</div>
+          <div>Status</div>
+        </div>
+        <div id="adminBookings">
+          <!-- JS inserts rows dynamically here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ACTION BUTTONS -->
+    <div class="admin-actions">
+      <button class="primary-btn">Add New Route</button>
+      <button class="secondary-btn">Manage Users</button>
+      <button class="secondary-btn">View Reports</button>
+    </div>
+
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

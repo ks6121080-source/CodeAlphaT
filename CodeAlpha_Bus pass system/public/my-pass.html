@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Pass | Bus Pass System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-page my-pass-page">
+
+  <!-- Header -->
+  <header class="top-bar">
+    <div class="logo">☁️ Cloud-Based Bus Pass System</div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="my-pass.html">My Pass</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="my-pass-container">
+
+    <div class="my-pass-card">
+
+      <div class="status-badge">Active Pass</div>
+
+      <h2>My Bus Pass</h2>
+      <p class="sub-text">This is your currently active bus pass.</p>
+
+      <!-- Details + QR -->
+      <div class="pass-content">
+
+        <!-- Pass Details -->
+        <div class="pass-details">
+          <div>
+            <span>From</span>
+            <strong id="from-pass"></strong>
+          </div>
+          <div>
+            <span>To</span>
+            <strong id="to-pass"></strong>
+          </div>
+          <div>
+            <span>Pass Type</span>
+            <strong id="pass-type-pass"> Monthly</strong>
+          </div>
+          <div>
+            <span>Valid Till</span>
+            <strong id="valid-till-pass"> 30 Sep 2026</strong>
+          </div>
+        </div>
+
+        <!-- QR Section -->
+        <div class="qr-section">
+          <img src="assets/images/qr-pass.png" alt="Bus Pass QR Code" />
+          <p>Show this QR code to the conductor while travelling.</p>
+        </div>
+
+      </div>
+
+      <!-- Button -->
+      <button class="primary-btn" onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+      </button>
+
+    </div>
+     </div>
+	<script src="script.js"></script>
+</body>
+</html>

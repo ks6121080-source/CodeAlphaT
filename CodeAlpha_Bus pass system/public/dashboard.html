@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard | Bus Pass System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-page">
+
+  <!-- Header -->
+  <header class="top-bar">
+    <div class="logo">☁️ Cloud-Based Bus Pass System</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">My Bookings</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="dashboard-container">
+
+    <h2 class="welcome-text">Welcome, John Doe!</h2>
+
+    <!-- Stats Cards -->
+    <div class="stats-cards">
+      <div class="card blue">
+        <p>Total Passes</p>
+        <h3>5</h3>
+      </div>
+      <div class="card green">
+        <p>Upcoming Trips</p>
+        <h3>2</h3>
+      </div>
+      <div class="card orange">
+        <p>Revenue Today</p>
+        <h3>₹8,500</h3>
+      </div>
+    </div>
+
+    <!-- Book Section -->
+    <div class="book-section">
+      <h3>Book Your Bus Pass</h3>
+
+      <div class="form-row">
+        <div>
+          <label>From</label>
+          <select id="from">
+            <option>City Center</option>
+            <option>Downtown</option>
+          </select>
+        </div>
+
+        <div>
+          <label>To</label>
+          <select id="to">
+            <option>Airport</option>
+            <option>Tech Park</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="btn-center">
+       <button class="primary-btn" onclick="goToBookPass()">
+	Check Availability
+	</button>
+    </div>
+	</div>
+ <script src="script.js"></script>
+</body>
+</html>

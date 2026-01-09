@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pass Confirmed | Bus Pass System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-page confirm-page">
+
+  <!-- Header -->
+  <header class="top-bar">
+    <div class="logo">☁️ Cloud-Based Bus Pass System</div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="my-pass.html">My Pass</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Confirmation Container -->
+  <div class="confirm-container">
+
+    <div class="confirm-card">
+      <div class="check-icon">✔</div>
+
+      <h2>Pass Confirmed!</h2>
+      <p class="sub-text">
+        Your bus pass has been successfully booked.
+      </p>
+
+      <!-- Pass Summary -->
+      <div class="pass-summary">
+        <div>
+          <span>From</span>
+          <strong id="from-confirm">City Center</strong>
+        </div>
+        <div>
+          <span>To</span>
+          <strong id="to-confirm">Airport</strong>
+        </div>
+        <div>
+          <span>Pass Type</span>
+          <strong id="pass-type-confirm">Monthly</strong>
+        </div>
+        <div>
+          <span>Valid Till</span>
+          <strong id="valid-till-confirm">30 Sep 2026</strong>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="btn-group">
+        <button class="primary-btn" onclick="window.location.href='my-pass.html'">
+          View My Pass
+        </button>
+        <button class="secondary-btn" onclick="window.location.href='dashboard.html'">
+          Go to Dashboard
+        </button>
+      </div>
+    </div>
+
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
